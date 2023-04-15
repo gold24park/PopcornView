@@ -24,7 +24,7 @@ allprojects {
 ```
 ```agsl
 dependencies {
-    implementation 'com.github.gold24park:PopcornView:1.0.2'
+    implementation 'com.github.gold24park:PopcornView:release-1.0.2'
 }
 ```
 
