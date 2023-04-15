@@ -35,7 +35,7 @@ afterEvaluate {
     publishing {
         def _group_id = 'com.github.gold24park'
         def _artifact_id = 'PopcornView'
-        def _version = '1.0.1'
+        def _version = '1.0.2'
         publications {
             release(MavenPublication) {
                 from components.release
