@@ -1,13 +1,26 @@
 # PopcornView
 
-A Lightweight Popping Animation Library!
-
-![emoji](/images/emoji.gif)
+A Lightweight Popping Animation Android Library!
+- Easy to use
+- Small Size
+- Highly Customizable
+<p>
+    <img src="/images/emoji.gif"  width="200"/>
+    <img src="/images/drawable.gif"  width="200"/>
+    <img src="/images/text.gif"  width="200"/>
+</p>
 
 ## Getting Started
 
 To use this library in your project, add the following dependency to your build.gradle file:
-
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 ```agsl
 dependencies {
     implementation 'com.github.gold24park:PopcornView:1.0.0'
@@ -55,8 +68,6 @@ popcornView.start(
 
 ### TextShape
 
-![text](/images/text.gif)
-
 TextShape represents a shape that is drawn as text. It has the following properties:
 
 ```
@@ -72,8 +83,6 @@ val shape = PopcornShape.TextShape(
 - `textColor` (optional): The color of the text to be drawn. (Default: Color.BLACK).
 
 ### DrawableShape
-
-![image](/images/drawable.gif)
 
 ```
 val shape = PopcornShape.DrawableShape(
