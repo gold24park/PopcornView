@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PopcornView">
+        <attr name="popcornElasticity" format="float"/>
+        <attr name="popcornFriction" format="float"/>
+        <attr name="popcornTtl" format="integer"/>
+        <attr name="popcornFadeout" format="boolean"/>
+        <attr name="popcornMinVelocity" format="integer"/>
+        <attr name="popcornMaxVelocity" format="integer"/>
+        <attr name="popcornAngleRangeStart" format="integer"/>
+        <attr name="popcornAngleRangeEnd" format="integer"/>
+        <attr name="popcornGravity" format="float"/>
+        <attr name="popcornAmount" format="integer"/>
+        <attr name="popcornInterval" format="integer"/>
+    </declare-styleable>
+</resources>
