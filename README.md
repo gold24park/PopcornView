@@ -1,4 +1,5 @@
 # PopcornView
+[![](https://jitpack.io/v/gold24park/PopcornView.svg)](https://jitpack.io/#gold24park/PopcornView)
 
 A Lightweight Popping Animation Android Library!
 - Easy to use
