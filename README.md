@@ -59,7 +59,7 @@ popcornView.start(
 - `minVelocity`: The minimum velocity of the popcorn in pixels per second. (Default: 20)
 - `maxVelocity`: The maximum velocity of the popcorn in pixels per second. (Default: 40)
 - `angleRangeStart`: The minimum launch angle of the popcorn in degrees. (Default: 45)
-- `angleRangeEnd`: The maximum launch angle of the popcorn in degrees. Default is 135.
+- `angleRangeEnd`: The maximum launch angle of the popcorn in degrees. (Default: 135)
 - `elasticity`: The elasticity of the collisions between the popcorn and the walls. (Default: 0.6F)
 - `friction`: The friction coefficient of the popcorn on the walls. (Default: 0.39F)
 - `ttl`: The time-to-live of the popcorn in milliseconds. (Default: 30,000L)
